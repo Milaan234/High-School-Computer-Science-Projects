@@ -1,0 +1,63 @@
+body {
+    background-color:royalblue;
+    border:1px;
+    font-family:arial;
+}
+table {
+    font-size:20px;
+    text-align:center;
+    width: 100%;
+    height: 200%;
+    background-color:#dddddd;
+    color:green;
+    border-width:10px;
+    border-color:black;
+}
+h1 {
+    text-align:center;
+    font-family:arial;
+    font-weight:900;
+    font-size:60px;
+    color:white;
+}
+img {
+    width:200px;
+    height:200px;
+    text-align:center;
+}
+.image_table {
+    background-color:royalblue;
+}
+h2 {
+    color:white;
+    text-align:center;
+    font-size:40px;
+}
+p {
+    color:white;
+    font-size:20px;
+    margin:10px 20px 10px 20px;
+}
+a {
+    color:red;
+}
+.bottom_table {
+    background-color:royalblue;
+    color:red;
+}
+ol {
+    color:white;
+    font-size:20px;
+}
+.statimg {
+    width:400px;
+    height:200px;
+}
+.stattable {
+    background-color:royalblue;
+    color:white;
+}
+ul {
+    color:white;
+    font-size:20px;
+}
