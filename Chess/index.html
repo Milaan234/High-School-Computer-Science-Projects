@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React + TypeScript + Replit</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body onload=startFunction()>
+    
+    <!-- ------------------------------------------------------------------ -->
+    
+    <div id="root">
+      <div id="board"></div>
+      
+      <div id="white" draggable>
+        <label>White Time: </label>
+        <label id="whiteTime"></label>
+        <br><br>
+        <button id="whiteMoveOver" onclick=whiteMoveOver()>Time</button>
+      </div>
+      
+      <div id="black" draggable>
+        <label>Black Time: </label>
+        <label id="blackTime"></label>
+        <br><br>
+        <button id="blackMoveOver" onclick=blackMoveOver()>Time</button>
+      </div>
+
+      <div id="a1" draggable></div>
+      <div id="b1" draggable></div>
+      <div id="c1" draggable></div>
+      <div id="d1" draggable></div>
+      <div id="e1" draggable></div>
+      <div id="f1" draggable></div>
+      <div id="g1" draggable></div>
+      <div id="h1" draggable></div>
+
+      <div id="a2" draggable></div>
+      <div id="b2" draggable></div>
+      <div id="c2" draggable></div>
+      <div id="d2" draggable></div>
+      <div id="e2" draggable></div>
+      <div id="f2" draggable></div>
+      <div id="g2" draggable></div>
+      <div id="h2" draggable></div>
+
+      <div id="a7" draggable></div>
+      <div id="b7" draggable></div>
+      <div id="c7" draggable></div>
+      <div id="d7" draggable></div>
+      <div id="e7" draggable></div>
+      <div id="f7" draggable></div>
+      <div id="g7" draggable></div>
+      <div id="h7" draggable></div>
+
+      <div id="a8" draggable></div>
+      <div id="b8" draggable></div>
+      <div id="c8" draggable></div>
+      <div id="d8" draggable></div>
+      <div id="e8" draggable></div>
+      <div id="f8" draggable></div>
+      <div id="g8" draggable></div>
+      <div id="h8" draggable></div>
+    </div>
+
+    <div>
+      <div id="a1Extra1" draggable></div>
+      <div id="b1Extra1" draggable></div>
+      <div id="c1Extra1" draggable></div>
+      <div id="d1Extra1" draggable></div>
+      <div id="a1Extra2" draggable></div>
+      <div id="b1Extra2" draggable></div>
+      <div id="c1Extra2" draggable></div>
+      <div id="d1Extra2" draggable></div>
+      <div id="a1Extra3" draggable></div>
+      <div id="b1Extra3" draggable></div>
+      <div id="c1Extra3" draggable></div>
+      <div id="d1Extra3" draggable></div>
+
+      <div id="a8Extra1" draggable></div>
+      <div id="b8Extra1" draggable></div>
+      <div id="c8Extra1" draggable></div>
+      <div id="d8Extra1" draggable></div>
+      <div id="a8Extra2" draggable></div>
+      <div id="b8Extra2" draggable></div>
+      <div id="c8Extra2" draggable></div>
+      <div id="d8Extra2" draggable></div>
+      <div id="a8Extra3" draggable></div>
+      <div id="b8Extra3" draggable></div>
+      <div id="c8Extra3" draggable></div>
+      <div id="d8Extra3" draggable></div>
+    </div>
+
+    <div id="title" draggable>
+      <label>Created By: Milaan</label>
+    </div>
+
+    <!-- ------------------------------------------------------------------ -->
+  </body>
+</html>
