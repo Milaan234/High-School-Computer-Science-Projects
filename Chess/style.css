@@ -1,0 +1,385 @@
+#root {
+  
+}
+
+#title {
+  font-size: 30px;
+  color: red;
+}
+
+#board {
+  width: 900px;
+  height: 900px;
+  background-image: url('photos/board.png');
+  left: 500px;
+  margin-left: 26.7%;
+}
+
+#white {
+  position: absolute;
+  font-size: 40px;
+}
+#black {
+  position: absolute;
+  font-size: 40px;
+}
+
+#whiteMoveOver {
+  width: 300px;
+  height: 200px;
+  font-size: 30px;
+}
+#blackMoveOver {
+  width: 300px;
+  height: 200px;
+  font-size: 30px;
+}
+
+#a1 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/a1.png');
+  position: absolute;
+}
+#b1 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/b1.png');
+  position: absolute;
+}
+#c1 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/c1.png');
+  position: absolute;
+}
+#d1 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/d1.png');
+  position: absolute;
+}
+#e1 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/e1.png');
+  position: absolute;
+}
+#f1 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/c1.png');
+  position: absolute;
+}
+#g1 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/b1.png');
+  position: absolute;
+}
+#h1 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/a1.png');
+  position: absolute;
+}
+
+#a2 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/a2.png');
+  position: absolute;
+}
+#b2 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/a2.png');
+  position: absolute;
+}
+#c2 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/a2.png');
+  position: absolute;
+}
+#d2 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/a2.png');
+  position: absolute;
+}
+#e2 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/a2.png');
+  position: absolute;
+}
+#f2 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/a2.png');
+  position: absolute;
+}
+#g2 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/a2.png');
+  position: absolute;
+}
+#h2 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/a2.png');
+  position: absolute;
+}
+
+#a8 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/a8.png');
+  position: absolute;
+}
+#b8 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/b8.png');
+  position: absolute;
+}
+#c8 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/c8.png');
+  position: absolute;
+}
+#d8 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/d8.png');
+  position: absolute;
+}
+#e8 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/e8.png');
+  position: absolute;
+}
+#f8 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/c8.png');
+  position: absolute;
+}
+#g8 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/b8.png');
+  position: absolute;
+}
+#h8 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/a8.png');
+  position: absolute;
+}
+
+#a7 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/a7.png');
+  position: absolute;
+}
+#b7 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/a7.png');
+  position: absolute;
+}
+#c7 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/a7.png');
+  position: absolute;
+}
+#d7 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/a7.png');
+  position: absolute;
+}
+#e7 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/a7.png');
+  position: absolute;
+}
+#f7 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/a7.png');
+  position: absolute;
+}
+#g7 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/a7.png');
+  position: absolute;
+}
+#h7 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/a7.png');
+  position: absolute;
+}
+
+#a1Extra1 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/a1.png');
+  position: absolute;
+}
+#b1Extra1 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/b1.png');
+  position: absolute;
+}
+#c1Extra1 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/c1.png');
+  position: absolute;
+}
+
+#d1Extra1 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/d1.png');
+  position: absolute;
+}
+
+#a1Extra2 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/a1.png');
+  position: absolute;
+}
+#b1Extra2 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/b1.png');
+  position: absolute;
+}
+#c1Extra2 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/c1.png');
+  position: absolute;
+}
+
+#d1Extra2 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/d1.png');
+  position: absolute;
+}
+
+#a1Extra3 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/a1.png');
+  position: absolute;
+}
+#b1Extra3 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/b1.png');
+  position: absolute;
+}
+#c1Extra3 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/c1.png');
+  position: absolute;
+}
+
+#d1Extra3 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/d1.png');
+  position: absolute;
+}
+
+#a8Extra1 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/a8.png');
+  position: absolute;
+}
+#b8Extra1 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/b8.png');
+  position: absolute;
+}
+#c8Extra1 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/c8.png');
+  position: absolute;
+}
+#d8Extra1 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/d8.png');
+  position: absolute;
+}
+
+#a8Extra2 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/a8.png');
+  position: absolute;
+}
+#b8Extra2 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/b8.png');
+  position: absolute;
+}
+#c8Extra2 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/c8.png');
+  position: absolute;
+}
+#d8Extra2 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/d8.png');
+  position: absolute;
+}
+
+#a8Extra3 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/a8.png');
+  position: absolute;
+}
+#b8Extra3 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/b8.png');
+  position: absolute;
+}
+#c8Extra3 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/c8.png');
+  position: absolute;
+}
+#d8Extra3 {
+  width: 60px;
+  height: 60px;
+  background-image: url('photos/d8.png');
+  position: absolute;
+}
