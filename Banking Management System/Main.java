@@ -117,7 +117,6 @@ public class Main {
   }
 
   // displays menu that user can choose from after being logged in
-  // function created by Milaan
   public static void displayMenu() {
     System.out.println("1. Deposit money");
     System.out.println("2. Withdraw money");
@@ -159,7 +158,6 @@ public class Main {
       
       choice = 0;
       // while loop that runs after being logged in
-      // while loop created by Milaan
       while (choice != 5) {
         // display menu and get user choice
         displayMenu();
