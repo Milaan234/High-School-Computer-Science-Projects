@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React + TypeScript + Replit</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <!-- ------------------------------------------------------------------ -->
+    <div>
+      <table id="scoreboard">
+        <tr>
+          <th id="scoreLeft">
+            Blue: 0
+          </th>
+          <th id="scoreRight">
+            Pink: 0
+          </th>
+        </tr>
+      </table>
+    </div>
+    
+    <p>
+      <table id="start">
+        <tr>
+          <th>
+            <button onclick="myMove()">Start</button> 
+          </th>
+          <th id="easyMode">
+            <label>Easy Mode: </label>
+            <input type="checkbox" id="easyCheckbox" checked>
+          </th>
+          <th id="mediumMode">
+            <label>Medium Mode: </label>
+            <input type="checkbox" id="mediumCheckbox">
+          </th>
+          <th id="hardMode">
+            <label>Hard Mode: </label>
+            <input type="checkbox" id="hardCheckbox">
+          </th>
+        </tr>
+      </table>
+    </p>
+    <div id ="myContainer">
+      <div id ="ball">  </div>
+      <div id ="leftPaddle"> </div>
+      <div id ="rightPaddle"> </div>
+    </div>
+    <!-- ------------------------------------------------------------------ -->
+  </body>
+</html>
