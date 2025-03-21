@@ -1,0 +1,56 @@
+#myContainer {
+  width: 1000px;
+  height: 800px;
+  position: relative;
+  background: yellow;
+  
+}
+#ball {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: red;
+  left: 475px;
+  top: 375px;
+}
+#logo {
+  width="20px";
+  heigh="20px";
+}
+
+#leftPaddle {
+  width: 13px;
+  height: 75px;
+  position: absolute;
+  background-color: #0033ff;
+  top: 362.5px;
+}
+
+#rightPaddle {
+  width: 13px;
+  height: 75px;
+  position: absolute;
+  background-color: #ff00bb;
+  left: 987px;
+  top: 362.5px;
+}
+
+#scoreboard {
+  width: 1000px;
+  font-size: 30px;
+}
+
+#scoreLeft {
+  text-align:left;
+}
+
+#scoreRight {
+  text-align:right;
+  padding-right: 100px;
+}
+
+#start {
+  width: 1000px;
+  text-align: left;
+  font-weight: bold;
+}
