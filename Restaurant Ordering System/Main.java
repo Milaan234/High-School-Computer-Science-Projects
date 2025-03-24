@@ -1,3 +1,8 @@
+/*
+Restaurant Ordering System
+Created by Milaan Shah
+*/
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
